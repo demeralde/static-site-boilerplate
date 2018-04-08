@@ -10,15 +10,16 @@ for rapid development
 development
 * [Sass](https://sass-lang.com/) - because vanilla CSS sucks
 * [Gulp](https://gulpjs.com/) - automation for repetitive tasks (e.g Sass
-compilation, minification, etc)
+compilation, minification etc)
 * [nunjucks](https://mozilla.github.io/nunjucks/) - very nice templating language
-instead of using vanilla HTML
+to replace vanilla HTML. Enables imports so you DRY
 * [Babel](https://babeljs.io/) - so you can write the latest JavaScript
-* [autoprefixer](https://github.com/postcss/autoprefixer) - automatic CSS vendor prefixes
+* [autoprefixer](https://github.com/postcss/autoprefixer) - automatic CSS vendor
+prefixes because they're a nuisance and no one remembers them
 * Linting to enforce code quality with [ESLint](https://eslint.org/) and
 [stylelint](https://stylelint.io/)
-* Source maps for tracing
 * CSS minification with Sass, JS minification with [UglifyJS](https://github.com/mishoo/UglifyJS)
+* Sourcemaps to make debugging JS and SCSS easier
 
 ## Getting Started
 
@@ -91,5 +92,5 @@ How you configure the web server to work with these files depends on what you're
 using and is outside the scope of this documentation.
 
 One thing to note, however, is that by default assets are mapped to the
-`/static/` route (e.g `/static/css/common.css`). Configure this route unless you
-want to manually edit the path to assets.
+`/static/` route (e.g `/static/css/common.css`). You'll need to map `/static` to
+each asset directory.
