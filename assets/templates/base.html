@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    {% block meta %}
+
+    {% endblock %}
+
+    <link rel="stylesheet" href="/static/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/css/common.css">
+    {% block assets_header %}
+
+    {% endblock %}
+  </head>
+  <body>
+    <main>
+      {% block main %}
+
+      {% endblock %}
+    </main>
+
+    <script type="text/javascript" src="/static/js/common.js"></script>
+    {% block assets_footer %}
+
+    {% endblock %}
+  </body>
+</html>

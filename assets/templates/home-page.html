@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block meta %}
+  <title>Home</title>
+{% endblock %}
+
+{% block assets_header %}
+  <link rel="stylesheet" href="/static/css/home-page.css">
+{% endblock %}
+
+{% block main %}
+  <div class="container-fluid mt-2">
+    <h1>It's working</h1>
+    <p>Awesome, the boilerplate is setup correctly. Happy coding!</p>
+    <img
+      class="mb-3"
+      src="https://media.giphy.com/media/QbumCX9HFFDQA/giphy-downsized-large.gif">
+    <p>0101011 by <a href="https://danieljs.tech">Daniel Spajic</a> :)</p>
+  </div>
+{% endblock %}
+
+{% block assets_footer %}
+  <link rel="stylesheet" href="/static/js/home-page.js">
+{% endblock %}

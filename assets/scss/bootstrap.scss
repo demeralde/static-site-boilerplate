@@ -1,0 +1,15 @@
+// Import Bootstrap variable overrides
+@import 'vars';
+
+// Required Bootstrap modules
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/mixins';
+
+// Optional Bootstrap modules
+@import 'node_modules/bootstrap/scss/grid';
+@import 'node_modules/bootstrap/scss/print';
+@import 'node_modules/bootstrap/scss/reboot';
+@import 'node_modules/bootstrap/scss/transitions';
+@import 'node_modules/bootstrap/scss/type';
+@import 'node_modules/bootstrap/scss/utilities';
