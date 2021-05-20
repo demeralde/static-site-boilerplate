@@ -1,6 +1,6 @@
 # static-site-boilerplate
 
-A simple yet featureful boilerplate for static website development. This is old and I don't recommend it, use [Gatsby](https://www.gatsbyjs.com/) instead.
+A simple yet featureful boilerplate for static website development. This is old and I don't recommend it, use [Gatsby](https://www.gatsbyjs.com/) instead. I've also been warned of security issues since then, which will need to be fixed.
 
 ## Features
 
